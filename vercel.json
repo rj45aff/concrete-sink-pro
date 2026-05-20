@@ -1,0 +1,15 @@
+{
+  "buildCommand": "pnpm build",
+  "installCommand": "pnpm install",
+  "framework": "vite",
+  "outputDirectory": "dist/public",
+  "env": {
+    "PNPM_VERSION": "10.4.1"
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
